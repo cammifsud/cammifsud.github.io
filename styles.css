@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background: #8acf00;
+}
+
+.background {
+  position: relative;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 15vw;
+  margin: 0;
+  background: #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: blur(2px);
+}
+
+.socials {
+  font-size: 4vh;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10vh;
+  justify-content: center;
+  filter: blur(1.5px);
+}
+
+.socials > *:not(:last-child) {
+    margin-right: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
