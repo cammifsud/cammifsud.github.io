@@ -1,3 +1,8 @@
+@font-face {
+    font-family: arialnarrow;
+    src: url(./assets/fonts/arialnarrow.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,12 +16,12 @@ body {
 
 .background {
   position: relative;
-  font-family: "Arial Narrow", Arial, sans-serif;
+  font-family: arialnarrow, "Arial Narrow", Arial, sans-serif;
   font-weight: 500;
 }
 
 h1 {
-  font-size: 15vw;
+  font-size: 10vw;
   margin: 0;
   background: #000;
   -webkit-background-clip: text;
